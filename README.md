@@ -10,17 +10,6 @@ Leads Tracker est une extension Chrome qui vous permet de suivre et de sauvegard
 - 📝 **Entrées personnalisées** : Ajoutez manuellement des leads, comme des idées ou des liens.
 - 📋 **Liste consolidée** : Consultez tous vos leads enregistrés au même endroit.
 - 🗑️ **Suppression facile** : Supprimez des leads une fois qu'ils ne sont plus nécessaires.
-- 🔄 **Synchronisation Chrome** : Synchronisez vos données sur tous vos appareils connectés à votre compte Google.
-
-## Captures d'écran
-
-### Interface principale
-
-![Interface principale](https://via.placeholder.com/800x400?text=Capture+Interface+Principale)
-
-### Sauvegarde d'un onglet
-
-![Sauvegarde onglet](https://via.placeholder.com/800x400?text=Capture+Sauvegarde+Onglet)
 
 ## Installation
 
@@ -85,7 +74,7 @@ Ce projet est sous licence [MIT](LICENSE).
 
 ## A propos
 
-Créé avec ❤️ par [Votre Nom/Organisation].
+Créé avec ❤️ par rpepi.
 
 Si vous avez des questions, n'hésitez pas à me contacter à [votre-email@example.com](mailto:votre-email@example.com).
 
