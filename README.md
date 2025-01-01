@@ -1,70 +1,94 @@
-🧲 LeadSaver - Chrome Extension for Lead Tracking
+# Leads Tracker
 
+![Leads Tracker](https://img.shields.io/badge/Chrome-Extension-blue?style=flat-square) ![Version](https://img.shields.io/badge/version-1.0.0-green?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-orange?style=flat-square)
 
+Leads Tracker est une extension Chrome qui vous permet de suivre et de sauvegarder facilement des onglets ou des entrées utilisateur comme des idées, des URLs ou des notes rapides. Idéal pour les professionnels, les étudiants et les curieux qui souhaitent organiser leurs pistes ou leurs recherches efficacement.
 
-LeadSaver est une extension Chrome simple mais puissante pour suivre vos leads et sauvegarder des onglets ou des notes importantes.
+## Fonctionnalités
 
-📌 Fonctionnalités principales
-🌐 Enregistrement rapide d'onglets actifs : Sauvegardez les URL en un clic.
-🗒️ Ajout de notes personnalisées : Ajoutez des détails importants pour chaque lead.
-💾 Stockage persistant : Vos données sont sauvegardées localement.
-🖥️ Interface utilisateur simple et claire : Facile à naviguer pour tous les utilisateurs.
-📤 Exportation des leads : Exportez vos leads au format CSV pour un suivi avancé.
-📂 Structure du projet
-plaintext
-Copy code
-.
-├── src/
-│   ├── popup.html         # Interface utilisateur
-│   ├── popup.js           # Gestionnaire d'événements
-│   ├── background.js      # Gestion des événements en arrière-plan
-│   ├── manifest.json      # Fichier de configuration de l'extension
-│   ├── styles.css         # Fichier CSS pour le style
-│   └── utils.js           # Fonctions utilitaires
-├── demo.gif               # Démonstration de l'extension
-├── LICENSE                # Licence MIT
-├── README.md              # Documentation
-└── package.json           # Fichier pour gestion de dépendances (facultatif)
-🚀 Installation
-Option 1 : Depuis le Chrome Web Store (à venir)
-Rendez-vous sur la page officielle LeadSaver et cliquez sur Ajouter à Chrome.
+- 📌 **Sauvegarde des onglets actifs** : Enregistrez rapidement l'URL de votre onglet actuel pour y revenir plus tard.
+- 📝 **Entrées personnalisées** : Ajoutez manuellement des leads, comme des idées ou des liens.
+- 📋 **Liste consolidée** : Consultez tous vos leads enregistrés au même endroit.
+- 🗑️ **Suppression facile** : Supprimez des leads une fois qu'ils ne sont plus nécessaires.
+- 🔄 **Synchronisation Chrome** : Synchronisez vos données sur tous vos appareils connectés à votre compte Google.
 
-Option 2 : Installation manuelle
-Clonez ce dépôt GitHub :
-bash
-Copy code
-git clone https://github.com/votre-utilisateur/leadsaver.git
-cd leadsaver
-Ouvrez Chrome et accédez à chrome://extensions.
-Activez Mode développeur.
-Cliquez sur Charger l'extension non empaquetée.
-Sélectionnez le dossier cloné.
-💻 Utilisation
-Cliquez sur l'icône LeadSaver dans votre barre des extensions.
-Ajoutez un lead en sauvegardant un onglet actif ou en saisissant des données personnalisées.
-Consultez vos leads directement depuis l'interface.
-Exportez vos leads via le bouton Export CSV.
-✨ Aperçu
+## Captures d'écran
 
-(Ajoutez ici une capture animée ou une image pour présenter votre extension en action.)
+### Interface principale
 
-🛠️ Technologies utilisées
-HTML5
-CSS3
-JavaScript (ES6)
-Chrome Extensions API
-🤝 Contribuer
-Les contributions sont les bienvenues ! Pour contribuer :
+![Interface principale](https://via.placeholder.com/800x400?text=Capture+Interface+Principale)
 
-Fork le projet.
-Créez une nouvelle branche : git checkout -b feature-nom.
-Faites vos modifications et effectuez un commit : git commit -m "Ajout de la fonctionnalité X".
-Poussez sur votre branche : git push origin feature-nom.
-Soumettez une Pull Request.
-📜 Licence
-Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, le modifier et le partager.
+### Sauvegarde d'un onglet
 
-📧 Contact
-Pour toute question ou suggestion, contactez-moi à : votre.email@example.com
+![Sauvegarde onglet](https://via.placeholder.com/800x400?text=Capture+Sauvegarde+Onglet)
 
-✨ Start tracking your leads effortlessly with LeadSaver!
+## Installation
+
+1. Clonez ce dépôt ou téléchargez-le au format ZIP :
+
+   ```bash
+   git clone https://github.com/votre-utilisateur/leads-tracker.git
+   ```
+
+2. Ouvrez Google Chrome et accédez à `chrome://extensions/`.
+
+3. Activez le mode développeur (en haut à droite).
+
+4. Cliquez sur **Charger l'extension non empaquetée** et sélectionnez le dossier du projet.
+
+5. L'extension devrait maintenant être ajoutée à votre barre d'outils Chrome.
+
+## Utilisation
+
+1. Cliquez sur l'icône de Leads Tracker dans la barre d'outils Chrome.
+2. Utilisez les boutons pour :
+   - Sauvegarder l'onglet actif.
+   - Ajouter une entrée personnalisée.
+   - Supprimer des leads existants.
+3. Profitez de votre liste organisée accessible à tout moment !
+
+## Technologies utilisées
+
+- **HTML5** : Structure de l'interface utilisateur.
+- **CSS3** : Stylisation et design moderne.
+- **JavaScript** : Fonctionnalités et logique de l'extension.
+- **Chrome Extension API** : Intégration avec Google Chrome.
+
+## Contribuer
+
+Les contributions sont les bienvenues ! Pour commencer :
+
+1. Forkez ce dépôt.
+2. Créez une branche pour votre fonctionnalité :
+
+   ```bash
+   git checkout -b nouvelle-fonctionnalite
+   ```
+
+3. Effectuez vos modifications et validez-les :
+
+   ```bash
+   git commit -m "Ajout d'une nouvelle fonctionnalité"
+   ```
+
+4. Poussez vos modifications :
+
+   ```bash
+   git push origin nouvelle-fonctionnalite
+   ```
+
+5. Ouvrez une Pull Request.
+
+## Licence
+
+Ce projet est sous licence [MIT](LICENSE).
+
+## A propos
+
+Créé avec ❤️ par [Votre Nom/Organisation].
+
+Si vous avez des questions, n'hésitez pas à me contacter à [votre-email@example.com](mailto:votre-email@example.com).
+
+---
+
+**Leads Tracker** - Organisez vos idées, suivez vos pistes, et restez productif(e) !
