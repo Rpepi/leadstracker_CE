@@ -76,7 +76,7 @@ Ce projet est sous licence [MIT](LICENSE).
 
 Créé avec ❤️ par rpepi.
 
-Si vous avez des questions, n'hésitez pas à me contacter à [votre-email@example.com](mailto:votre-email@example.com).
+Si vous avez des questions, n'hésitez pas à me contacter à [romain.pepi07@gmail.com](mailto:romain.pepi07@gmail.com).
 
 ---
 
